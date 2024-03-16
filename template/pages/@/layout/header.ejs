@@ -4,6 +4,8 @@ const header = _.cms('header') || {}
 const contacts = _.cms('contacts') || {}
 const themeCustom = _.settings.theme.custom || ''
 
+
+
 // social networks handled by contacts
 const networks = [
   'facebook',
@@ -72,7 +74,7 @@ const hasAllDepartments = header.menu_all_departments
       <% } %>
     <% } %>
   <% } %>
-
+<!--
   <div class="top-bar__nav d-none d-md-block">
     <div class="container-fluid">
       <div class="row">
@@ -120,9 +122,56 @@ const hasAllDepartments = header.menu_all_departments
     </div>
   </div>
 </div>
-
+-->
 <header class="header" id="header">
-  <div class="header__container container-fluid">
+  
+  <div class="apx-header py-3">
+    <div class="container-fluid">
+      <div class="row align-item-center justify-content-between">
+        <div class="col-auto">
+          <a href="/">
+            <%- await include('@/layout/inc/logo', { _ }) %>
+          </a>
+        </div>
+        <div class="col">
+          <nav class="d-flex justify-content-end">
+            <ul>
+              <li>
+                <a href="">
+                  Quem somos
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  Criar Loja Virtual
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  Outros Serviços
+                </a>
+              </li>
+              <li>
+                <a 
+                  href="/app/#/account/"
+                  title="<%= _.dictionary('myAccount') %>">
+                  Área do Cliente
+                </a>
+              </li>
+              <li>
+                <a href="" class="btn bg-gradient radius-100 btn-padding">
+                  Falar com um Especialista
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+  <div class="header__container container-fluid d-none">
     <div class="header__row row<%= isCentralizedLogo ? ' header__row--centralized-logo' : '' %><%= isCentralizedLogo && isCategoriesNavFull ? ' header__row--full-width' : '' %>">
       <div class="col-auto p-0 header__toggler-block">
         <button

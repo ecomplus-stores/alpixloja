@@ -1,9 +1,10 @@
 <%
+const settings = _.cms('settings') || {}
 // store logo object
-const logo = _.settings.logo
+let logo = _.settings.logo
   ? { url: (_.assetsPrefix || '') + _.settings.logo, alt: _.settings.name }
   : _.store.logo
-  
+logo = { url: (_.assetsPrefix || '') + settings.logo  , alt: _.settings.name }
 if (logo && logo.url) {
   const { width, height } = _.tryImageSize(logo.url)
   %>
