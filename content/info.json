@@ -1,18 +1,19 @@
 {
   "shipping": {
-    "show": true,
-    "text": "Entregamos para todo o Brasil"
+    "show": false,
+    "text": "Tenha e mantenha sua loja online com a opção certa de acordo com seu momento",
+    "title": "Alpix - Criação de loja virtual descomplicada"
   },
   "installments": {
-    "show": true,
+    "show": false,
     "text": "Parcele sem juros"
   },
   "exchange": {
-    "show": true,
+    "show": false,
     "text": "Não gostou? A primeira troca é gratuita"
   },
   "promo": {
-    "show": true,
+    "show": false,
     "text": "Diferentes promoções ao longo do ano!"
   }
 }
