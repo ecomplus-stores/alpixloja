@@ -8,19 +8,19 @@
   },
   "bg_color": "#ffffff",
   "repository": "ecomplus-stores/alpixloja",
-  "logo": "/img/uploads/group-980.svg",
+  "logo": "/img/uploads/logo.png",
   "name": "Alpix",
   "short_name": "Alpix",
   "lang": "pt_br",
   "currency": "BRL",
   "mini_logo": "",
   "font_family": "Montserrat",
-  "favicon": "/img/uploads/group-977.svg",
+  "favicon": "/img/uploads/logo.png",
   "icons_font": "linear-icons",
   "country_code": "BR",
   "secondary_color": "#4f4f4f",
-  "icon": "/img/uploads/group-977.svg",
+  "icon": "/img/uploads/logo.png",
   "store_id": 51507,
   "description": "Criação e manutenção de loja virtual descomplicada. Contrate desde a criação de marca, design de layout, programação e setup até serviços de manutenção, como criação de banners sazonais e personalização via código.",
-  "large_icon": "/img/uploads/group-977.svg"
+  "large_icon": "/img/uploads/logo.png"
 }
