@@ -21,6 +21,7 @@
 }
 body{
     font-size:var(--p);
+    font-family: 'Montserrat';
 }
 h1{font-size: var(--h1);}
 h2{font-size: var(--h2);}
@@ -123,7 +124,7 @@ main ~ iframe{display: none;}
 .radius-100{border-radius:3rem}
 .btn-padding{
     padding:.8rem 2rem;
-    
+
 }
 .align-items-center{align-items: center;}
 .align-items-end{align-items: flex-end;}
