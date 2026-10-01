@@ -1,0 +1,37 @@
+{
+  "icons": [
+    {
+      "src": "/icon_512x512.c7d6b43df3181313b3382a2545c16fe2.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "/icon_384x384.c7d6b43df3181313b3382a2545c16fe2.svg",
+      "sizes": "384x384",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "/icon_192x192.c7d6b43df3181313b3382a2545c16fe2.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "/icon_128x128.c7d6b43df3181313b3382a2545c16fe2.svg",
+      "sizes": "128x128",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "/icon_96x96.c7d6b43df3181313b3382a2545c16fe2.svg",
+      "sizes": "96x96",
+      "type": "image/svg+xml"
+    }
+  ],
+  "name": "Alpix",
+  "short_name": "Alpix",
+  "orientation": "portrait",
+  "display": "standalone",
+  "start_url": ".",
+  "description": "Criação e manutenção de loja virtual descomplicada. Contrate desde a criação de marca, design de layout, programação e setup até serviços de manutenção, como criação de banners sazonais e personalização via código.",
+  "background_color": "#ffffff",
+  "theme_color": "#131313"
+}
